@@ -14,6 +14,7 @@ HackTheBox's policy.
 | Machine | OS | Difficulty | Outcome | Key vulnerability |
 |---------|----|-----------|---------|-------------------|
 | [DevHub](./devhub/) | Linux (Ubuntu 22.04) | Medium | User + Root | CVE-2026-23744 — MCPJam Inspector unauthenticated RCE |
+| [Checkpoint](./checkpoint/) | Windows Server 2025 (Active Directory) | Medium | Full domain compromise | CVE-2025-53779 (BadSuccessor / dMSA) chained with AD misconfigurations |
 
 *More machines will be added here as they retire.*
 
@@ -30,7 +31,7 @@ HackTheBox's policy.
 
 ## Toolkit
 
-`Kali / Arch Linux` · `Nmap` · `Ncat` · `curl` · `SSH` · `Jupyter` · Python
+`Kali / Arch Linux` · `Nmap` · `Ncat` · `curl` · `SSH` · `Jupyter` · `bloodyAD` · `Impacket` · `Volatility 3` · `smbclient` · Python
 
 ---
 
